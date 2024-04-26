@@ -46,3 +46,8 @@ keymap.set("n", "<A-6>", ":BufferGoto 6<CR>", ns)
 keymap.set("n", "<A-7>", ":BufferGoto 7<CR>", ns)
 keymap.set("n", "<A-8>", ":BufferGoto 8<CR>", ns)
 keymap.set("n", "<A-9>", ":BufferGoto 9<CR>", ns)
+
+-- Terminal
+keymap.set("t", "<Esc>", "<C-\\><C-n><C-w><C-w>", ns)
+keymap.set("n", "<Leader>t", ":ToggleTerm<CR>", ns)
+keymap.set("n", "<Leader>q", ":q<CR>", ns)
